@@ -1,13 +1,13 @@
 // ─── Edit all site content here ───────────────────────────────────────────
 export const SITE = {
-  name: 'Sri Vidya',
-  tagline: 'Tuition Centre',
+  name: 'SRS',
+  tagline: 'Institution Center',
   founder: 'Mrs. Lakshmi Priya',
   founderTitle: 'Founder & Director',
   founderQual: 'M.Sc (Mathematics), B.Ed · 15+ years of teaching',
   phone: '+91 98765 43210',
   phoneRaw: '919876543210',
-  email: 'info@srividyatuition.in',
+  email: 'info@srsinstitution.in',
   address: 'Vibhav Complex, 1st Floor, Sathipuram – 517423',
   mapQuery: 'Vibhav Complex, Sathipuram, 517423',
   timings: ['Mon–Sat: 6:30–9:00 AM & 4:00–8:30 PM', 'Sunday: Doubt-clearing sessions'],

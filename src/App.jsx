@@ -175,7 +175,7 @@ function Nav() {
         <div className="pencil-body">
           <a href="#home" className="brand">
             <span className="brand-mark"><i className="ri-book-open-fill" /></span>
-            <span className="brand-text"><strong>{SITE.name}</strong></span>
+            <span className="brand-text"><strong>{SITE.name}</strong><small>{SITE.tagline}</small></span>
           </a>
           <span className="pencil-badge">
             <i className="ri-award-line" />
@@ -707,7 +707,7 @@ function Gallery() {
   return (
     <section className="section gallery" id="gallery">
       <div className="container">
-        <Head eyebrow="Gallery" title={<>Life at our <em>tuition centre</em></>} text="Photos and videos of our classrooms, lab, events and celebrations." />
+        <Head eyebrow="Gallery" title={<>Life at <em>SRS Institution Center</em></>} text="Photos and videos of our classrooms, lab, events and celebrations." />
         <Reveal className="tabs tabs--small">
           {[['all', 'All'], ['photo', 'Photos'], ['video', 'Videos']].map(([k, l]) => (
             <button key={k} className={`tab${filter === k ? ' is-active' : ''}`} onClick={() => setFilter(k)}>

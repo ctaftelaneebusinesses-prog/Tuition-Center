@@ -804,3 +804,5 @@ body { font-variant-numeric: lining-nums; }
   .story-ui { padding-bottom: 104px; }
   .story-progress { bottom: 0; }
 }
+
+.pencil-body .brand-text small { font-size: .62rem; letter-spacing: .16em; text-transform: uppercase; opacity: .7; font-weight: 700; white-space: nowrap; }

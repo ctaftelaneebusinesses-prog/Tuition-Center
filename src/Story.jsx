@@ -440,7 +440,7 @@ export default function Story() {
 
         <motion.div className="story-intro" style={{ opacity: introOpacity }}>
           <span className="eyebrow">A day at {SITE.name}</span>
-          <h2>Step inside <em>our tuition centre</em></h2>
+          <h2>Step inside <em>SRS Institution Center</em></h2>
           <p><i className="ri-mouse-line" /> Scroll to walk in</p>
         </motion.div>
 
